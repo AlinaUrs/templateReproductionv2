@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template reproduction</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Hero section-->
+    <header>
+        <div class="hero-container">
+            <div class="hero-container-inner">
+                <h4 id="hero-text" class="text-light">When creative guys like us get together, they bring a
+                    smile on
+                    users
+                    face.</h4>
+                <button class="btn-hero d-inline-block text-uppercase text-light bg-primary ">Explore
+                    work</button>
+            </div>
+        </div>
+    </header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark justify-content-around">
+        <img id="logo" src="images/logo.png" alt="Logo">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+            <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Homepage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Blog</a>
+            </li>
+            <li class="icon-item p-2">
+                <i class="fas fa-search text-light"></i>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!--Icons sections-->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+                <h3 class="text-do text-uppercase">What we do</h3>
+                <h3 class="experts-heading text-uppercase">Experts</h3>
+                <span class="build-text text-uppercase text-center fst-italic">We build digital solutions.</span>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class="fas fa-hand-spock"></i>
+                <h6 class="item-title text-uppercase">Pixel perfect</h6>
+                <p class="lorem-ipsum text-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+                    alias
+                    tempore.
+                    Sed sunt, labore
+                    deserunt dolore ullam nihil ipsum id facere quia omnis animi a dicta quasi nesciunt culpa
+                    provident.
+                </p>
+                <span class="learn text-uppercase">Learn more</span>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+                <i class=" fas fa-atom"></i>
+                <h6 class="item-title text-uppercase">Vector shapes</h6>
+                <p class="lorem-ipsum text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    maiores
+                    facilis,
+                    aliquam nobis qui
+                    architecto sint quaerat quis doloribus reprehenderit ab vitae ipsum hic, minus quidem laborum
+                    commodi officiis eaque.</p>
+                <span class="learn text-uppercase">Learn more</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class=" fas fa-robot"></i>
+                <h6 class="item-title text-uppercase">Google fonts</h6>
+                <p class="lorem-ipsum text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    maiores
+                    facilis,
+                    aliquam nobis qui
+                    architecto sint quaerat quis doloribus reprehenderit ab vitae ipsum hic, minus quidem laborum
+                    commodi officiis eaque.</p>
+                <span class="learn text-uppercase">Learn more</span>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class=" fas fa-brain"></i>
+                <h6 class="item-title text-uppercase">Easy layers</h6>
+                <p class="lorem-ipsum text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    maiores
+                    facilis,
+                    aliquam nobis qui
+                    architecto sint quaerat quis doloribus reprehenderit ab vitae ipsum hic, minus quidem laborum
+                    commodi officiis eaque.</p>
+                <span class="learn text-uppercase">Learn more</span>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center"">
+                <i class=" fas fa-user-astronaut"></i>
+                <h6 class="item-title text-uppercase">Bootstrap grid</h6>
+                <p class="lorem-ipsum text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    maiores
+                    facilis,
+                    aliquam nobis qui
+                    architecto sint quaerat quis doloribus reprehenderit ab vitae ipsum hic, minus quidem laborum
+                    commodi officiis eaque.</p>
+                <span class="learn text-uppercase">Learn more</span>
+            </div>
+        </div>
+    </section>
+
+    <!--Carousel-->
+
+    <section class="carousel-section d-flex flex-column align-items-center">
+        <div class="carousel-text">
+            <h3 class="text-do text-uppercase">What we do</h3>
+            <h3 class="experts-heading text-uppercase">Team work</h3>
+            <span class="build-text">We really love what we do & work on every project truly
+                reflects
+                that.</span>
+        </div>
+        <!--Carrousel itself - bootstrap variant-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carrousel1.jpeg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carrousel2.jpeg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carrousel3.jpeg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
+                data-bs-target="#carouselExampleFade" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button"
+                data-target="#carouselExampleFade" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </a>
+        </div>
+    </section>
+
+    <!--Banner-->
+
+    <section class="banner-container d-flex align-items-center justify-content-around">
+        <div class="banner-items d-flex flex-column align-items-center text-light">
+            <i class="fas fa-search"></i>
+            <h3>1265</h3>
+            <span>Total Projects</span>
+        </div>
+        <div class="banner-items d-flex flex-column align-items-center text-light">
+            <i class="fas fa-check"></i>
+            <h3>256</h3>
+            <span>Satisfied</span>
+        </div>
+        <div class="banner-items d-flex flex-column align-items-center text-light">
+            <i class="fas fa-award"></i>
+            <h3>523</h3>
+            <span>Awards</span>
+        </div>
+        <div class="banner-items d-flex flex-column align-items-center text-light">
+            <i class="fas fa-mountain"></i>
+            <h3>811</h3>
+            <span>Milestone</span>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+
+    <section class="testimonials d-flex flex-column align-items-center justify-content-center">
+        <div class="testimonials-title d-flex flex-column align-items-center">
+            <h3 class="text-do text-uppercase">Hear from</h3>
+            <h3 class="experts-heading text-uppercase">Testimonials</h3>
+            <span class="build-text">We always listen to our clients.</span>
+        </div>
+        <div class="testimonials-images">
+            <img src="images/testimonials.jpg" class="img-test-1" alt="Business woman">
+            <img src="images/testimonials.jpg" class="img-test-2" alt="Business woman">
+            <img src="images/testimonials.jpg" class="img-test-3" alt="Business woman">
+
+        </div>
+        <div class="testimonials-text d-flex flex-column align-items-center">
+            <h6>
+                Merry Mickel
+            </h6>
+            <h6 class="text-uppercase">
+                CEO - Envato Inc
+            </h6>
+            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat id tempora placeat, esse, dicta
+                laudantium delectus incidunt optio tenetur culpa pariatur?"</p>
+        </div>
+    </section>
+
+
+    <!--Contact section-->
+
+    <section class="contact-section d-flex justify-content-around">
+        <div class="contact-item-1">
+            <img id="logo-bottom" src="images/logo.png" alt="Logo">
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eos ducimus blanditiis
+                aliquam dolore
+                vero
+                delectus.</p>
+        </div>
+        <div class="contact-item-2">
+            <h6 class="text-light">Pages</h6>
+            <p class="text-light">About us</p>
+            <p class="text-light">Services</p>
+            <p class="text-light">Tutorials</p>
+            <p class="text-light">Documentation</p>
+            <p class="text-light">Support</p>
+        </div>
+        <div class="contact-item-3">
+            <h6 class="text-light">Gallery</h6>
+            <div class="gallery-imgs">
+                <img src="images/gallery1.jpg" alt="Team photo">
+                <img src="images/gallery2.jpg" alt="Team photo">
+                <img src="images/gallery3.png" alt="Team photo">
+                <img src="images/gallery4.jpeg" alt="Team photo">
+
+            </div>
+        </div>
+        <div class="contact-item-4">
+            <h6 class="text-light">Contact Info</h6>
+            <p class="text-light">SYP Creative Works facebook site, India</p>
+            <p class="text-light">*91 - 95006 -30513</p>
+            <p class="text-light">sypcreativeworks@gmail.com</p>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="logo-section">
+            <img src="images/logo.png" alt="logo" class="logo-footer">
+            <span class="text-light">2018 All Rights Reserved</span>
+        </div>
+        <div class="icons">
+            <i class="fab fa-facebook-f text-light"></i>
+            <i class="fab fa-twitter text-light"></i>
+            <i class="fab fa-linkedin text-light"></i>
+            <i class="fab fa-google-plus-g text-light"></i>
+            <i class="fab fa-pinterest text-light"></i>
+        </div>
+    </footer>
+
+</html>
